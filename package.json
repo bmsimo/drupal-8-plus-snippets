@@ -3,7 +3,7 @@
   "displayName": "Drupal 8.9+ Snippets",
   "description": "Snippets for controllers and other Drupal 8.9+ Classes",
   "version": "0.0.1",
-  "publisher": "Mohamed Bermaki",
+  "publisher": "MohamedBermaki",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^0.10.1"
