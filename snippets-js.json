@@ -1,0 +1,20 @@
+{
+	"Drupal Javascript File": {
+		"prefix": "djs",
+		"body": [
+			"(function ($, Drupal) {",
+			"  'use strict';",
+			"",
+			"  Drupal.behaviors.${1:NombreDelModuloMasId} = {",
+			"    attach: function (context, settings) {",
+			"      $('${2:selector}').once('${1:NombreDelModuloMasId}').each(function () {",
+			"        // Tu codigo Aqui",
+			"      });",
+			"    }",
+			"  };",
+			"})(jQuery, Drupal);"
+		],
+		"description": "Generate Drupal Carrito Behavior",
+		"scope": "javascript"
+	}
+}

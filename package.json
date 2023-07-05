@@ -1,0 +1,30 @@
+{
+  "name": "drupal-8-plus-snippets",
+  "displayName": "Drupal 8.9+ Snippets",
+  "description": "Snippets for controllers and other Drupal 8.9+ Classes",
+  "version": "0.0.1",
+  "publisher": "Mohamed Bermaki",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "galleryBanner": {
+    "color": "#1E81C1",
+    "theme": "light"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets-php.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets-js.json"
+      }
+    ]
+  }
+}
